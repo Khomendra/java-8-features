@@ -17,7 +17,10 @@ class AddableImpl implements Addable{
 public class LambdaParameter{
     public static void main(String []args){
         System.out.println("Sum of two numbers using lambda expression: ");
-        Addable addition = (a, b) ->  (a + b);
+        Addable addition = (int a, int b) -> {
+            int c = (a + b);
+            return c;
+        };
         int result = addition.sum(10, 20);
         System.out.println("Result: "+result);
     }
