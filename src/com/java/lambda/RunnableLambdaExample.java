@@ -1,6 +1,6 @@
 package com.java.lambda;
 
-//traditional way to create a thread
+//3. Traditional way to create a thread
 
 class ThreadDemo implements Runnable{
 

@@ -1,4 +1,4 @@
-//Pass lambda expression as a function parameter
+//1. Pass lambda expression as a function parameter
 
 package com.java.lambda;
 

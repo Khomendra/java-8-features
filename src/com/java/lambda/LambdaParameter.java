@@ -1,5 +1,5 @@
 
-//Lambda expression with parameter
+//2. Lambda expression with parameter
 //Addition of two number using lambda expression
 package com.java.lambda;
 
