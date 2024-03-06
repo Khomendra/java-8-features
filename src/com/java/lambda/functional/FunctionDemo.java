@@ -1,4 +1,6 @@
-//5. Traditional way to use Function interface which is available on java.util.function.Function.
+//6. way to use Function interface with lambda expression, which is available on java.util.function.Function.
+//Function<String, Integer> ==> it' generic, Represent a function that accept one argument and
+//produces a result. This is a FI, whose functional method is apply method.
 
 package com.java.lambda.functional;
 
@@ -14,7 +16,7 @@ class FunctionImpl implements Function<String, Integer>{
 
 public class FunctionDemo {
     public static void main(String []args){
-        Function<String, Integer> function = new FunctionImpl();
+        Function<String, Integer> function = (String s) -> s.length();
         System.out.println("Length: "+function.apply("Rakesh"));
     }
 }
