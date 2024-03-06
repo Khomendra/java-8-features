@@ -11,7 +11,6 @@ public class LambdaExample {
         print(() -> System.out.println("Rectangle class: draw() method"));
         print(() -> System.out.println("Square class: draw() method"));
         print(() -> System.out.println("Circle class: draw() method"));
-
     }
 
     private static void print(Shape shape){

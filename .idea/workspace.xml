@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0a8bacbd-7d11-4e0f-96f2-1b234fa8757a" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/com/java/lambda/RunnableLambdaExample.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/java/lambda/LambdaParameter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/java/lambda/LambdaParameter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/java/lambda/LambdaExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/java/lambda/LambdaExample.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,18 +35,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.LambdaExample.executor": "Run",
-    "Application.LambdaParameter.executor": "Run",
-    "Application.Main.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.LambdaExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LambdaParameter.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RunnableLambdaExample.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Application.LambdaParameter">
+}</component>
+  <component name="RunManager" selected="Application.RunnableLambdaExample">
     <configuration name="LambdaExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.java.lambda.LambdaExample" />
       <module name="java-lambda-expression" />
@@ -79,8 +81,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="RunnableLambdaExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.java.lambda.RunnableLambdaExample" />
+      <module name="java-lambda-expression" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.java.lambda.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.RunnableLambdaExample" />
         <item itemvalue="Application.LambdaParameter" />
         <item itemvalue="Application.LambdaExample" />
         <item itemvalue="Application.Main" />
