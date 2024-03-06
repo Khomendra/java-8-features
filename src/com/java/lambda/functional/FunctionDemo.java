@@ -1,6 +1,8 @@
 //6. way to use Function interface with lambda expression, which is available on java.util.function.Function.
 //Function<String, Integer> ==> it' generic, Represent a function that accept one argument and
-//produces a result. This is a FI, whose functional method is apply method.
+//produces a result. This is a FI, whose functional method is a 'apply' method.
+
+//Usage : if you want to get output of some input, then you can use it
 
 package com.java.lambda.functional;
 

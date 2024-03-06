@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0a8bacbd-7d11-4e0f-96f2-1b234fa8757a" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/com/java/lambda/functional/ConsumerDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/java/lambda/functional/FunctionDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/java/lambda/functional/FunctionDemo.java" afterDir="false" />
     </list>
@@ -36,6 +37,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.ConsumerDemo.executor": "Run",
     "Application.FunctionDemo.executor": "Run",
     "Application.LambdaExample.executor": "Run",
     "Application.LambdaParameter.executor": "Run",
@@ -48,7 +50,20 @@
     "kotlin-language-version-configured": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.FunctionDemo">
+  <component name="RunManager" selected="Application.ConsumerDemo">
+    <configuration name="ConsumerDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.java.lambda.functional.ConsumerDemo" />
+      <module name="java-lambda-expression" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.java.lambda.functional.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="FunctionDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.java.lambda.functional.FunctionDemo" />
       <module name="java-lambda-expression" />
@@ -88,13 +103,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="java-lambda-expression" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="RunnableLambdaExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.java.lambda.RunnableLambdaExample" />
       <module name="java-lambda-expression" />
@@ -110,11 +118,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ConsumerDemo" />
         <item itemvalue="Application.FunctionDemo" />
         <item itemvalue="Application.RunnableLambdaExample" />
         <item itemvalue="Application.LambdaParameter" />
         <item itemvalue="Application.LambdaExample" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
